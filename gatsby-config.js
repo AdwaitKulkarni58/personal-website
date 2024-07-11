@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Kavin Varnan`,
+    title: `Adwait Kulkarni`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `Kavin Varnan`,
+    author: `Adwait Kulkarni`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   flags: {

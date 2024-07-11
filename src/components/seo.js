@@ -1,10 +1,11 @@
 import * as React from "react"
 
 const seoData = {
-  "title": "Kavin Varnan",
-  "description": "Kavin Varnan is a an expert in top-tier mobile/web app architecture & robust backend servers",
-  "author": "Kavin Varnan",
-  "siteUrl": "https://kavin.varnan.me",
+  title: "Adwait Kulkarni",
+  description:
+    "Adwait Kulkarni is a design-oriented full-stack developer committed to creating robust, complete and unique user experiences.",
+  author: "Adwait Kulkarni",
+  siteUrl: "https://kavin.varnan.me",
 }
 
 const Seo = () => (

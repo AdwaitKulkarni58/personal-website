@@ -7,37 +7,61 @@ const FeaturedProjects = () => (
     <div className="section__content">
       <div className="project blistabloc">
         <figure className="project__pic">
-          <a href="https://passkeynotes.com/" rel="noreferrer" target="_blank">
-            <img src="./images/featured/passkeynotes/frame.png" alt=""/>
+          <a
+            href="https://github.com/AdwaitKulkarni58/UpbeatUpdates"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src="./images/featured/passkeynotes/frame.png" alt="" />
           </a>
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">
-            <a href="https://passkeynotes.com/" rel="noreferrer" target="_blank">Passkey Notes</a>
+            <a
+              href="https://github.com/AdwaitKulkarni58/UpbeatUpdates"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Upbeat Updates
+            </a>
           </div>
-          <p>A Secure Notes taking app, which syncs data across all your devices and stores all the data with AES-256 encryption</p>
+          <p>
+            A website that aims to provide users with a platform where they can
+            read, save, and share positive news articles as well as analyze
+            their own positivity based on news preferences
+          </p>
         </figcaption>
       </div>
 
       <div className="project screentime">
         <figure className="project__pic phones">
-          <a href="https://play.google.com/store/apps/details?id=com.talkingyak.app" rel="noreferrer" target="_blank">
-            <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss1.png" alt=""/>
-            </div>
-            <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss2.png" alt=""/>
-            </div>
-            <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss3.png" alt=""/>
-            </div>
-          </a>
+          {/* <a
+            href="https://play.google.com/store/apps/details?id=com.talkingyak.app"
+            rel="noreferrer"
+            target="_blank"
+          > */}
+          <div className="phone">
+            <img src="./images/featured/talkingyak/frame.png" alt="" />
+          </div>
+          {/* </a> */}
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">
-            <a href="https://play.google.com/store/apps/details?id=com.talkingyak.app" rel="noreferrer" target="_blank">Talking Yak</a>
+            {/* <a
+              href="https://play.google.com/store/apps/details?id=com.talkingyak.app"
+              rel="noreferrer"
+              target="_blank"
+            > */}
+            <p style={{ color: "white", fontWeight: "bold", fontSize: "17px" }}>
+              MovieHub
+            </p>
+            {/* </a> */}
           </div>
-          <p>Talking Yak is an English learning app specifically created for Hindi and Tamil speakers.</p>
+          <p>
+            MovieHub is your complete movie recommendation app. It helps you to
+            find and rate movies as per preferences and also connects you
+            with fellow movie enthusiasts!
+          </p>
         </figcaption>
       </div>
     </div>

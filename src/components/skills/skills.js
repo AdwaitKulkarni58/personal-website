@@ -2,14 +2,37 @@ import * as React from "react"
 import "./skills.scss"
 
 const skillsData = {
-  "languagesTitle": "Frontend",
-  "languages": ["Flutter", "Dart", "Android", "Kotlin"],
-  "frameworksTitle": "Backend",
-  "frameworks": ["Node.js", "Firebase", "Python", "Java - Spring"],
-  "toolsTitle": "Servers",
-  "tools": ["Scaling", "Serverless", "Microservice", "Monolith"],
-  "designTitle": "Cloud",
-  "design": ["Firebase", "Google Cloud", "AWS", "Digital Ocean"],
+  languagesTitle: "Frontend",
+  languages: ["HTML", "CSS", "JavaScript", "React.js", "Material UI"],
+  frameworksTitle: "Backend",
+  frameworks: [
+    "C",
+    "C++",
+    "Node.js",
+    "Express.js",
+    "Python",
+    "Flask",
+    "Java",
+    "Java - Spring",
+    "Redux Toolkit",
+  ],
+  databaseTitle: "Databases",
+  databases: ["SQL", "MongoDB", "H2", "Redis", "ElasticSearch"],
+  toolsTitle: "Tools",
+  tools: [
+    "Git",
+    "Docker",
+    "Jira",
+    "Maven",
+    "Postman",
+    "Jenkins",
+    "OpenShift",
+    "Cloud Foundry",
+  ],
+  dataScienceTitle: "Data Science",
+  dataScience: ["Pandas", "NumPy", "R", "Scikit-learn"],
+  otherTitle: "Other",
+  other: ["Apache Kafka", "Django", "Mongoose", "JUnit"],
 }
 
 const Skills = () => (
@@ -18,27 +41,59 @@ const Skills = () => (
     <div className="section__content">
       <div className="skillz">
         <div className="skillz__category">
-          <div className="skillz__category__label">{skillsData.languagesTitle}</div>
+          <div className="skillz__category__label">
+            {skillsData.languagesTitle}
+          </div>
           <ul>
-            {skillsData.languages.map((data) => <li className="skillz__category__item">{data}</li>)}
+            {skillsData.languages.map(data => (
+              <li className="skillz__category__item">{data}</li>
+            ))}
           </ul>
         </div>
         <div className="skillz__category">
-          <div className="skillz__category__label">{skillsData.frameworksTitle}</div>
+          <div className="skillz__category__label">
+            {skillsData.frameworksTitle}
+          </div>
           <ul>
-            {skillsData.frameworks.map((data) => <li className="skillz__category__item">{data}</li>)}
+            {skillsData.frameworks.map(data => (
+              <li className="skillz__category__item">{data}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="skillz__category">
+          <div className="skillz__category__label">
+            {skillsData.databaseTitle}
+          </div>
+          <ul>
+            {skillsData.databases.map(data => (
+              <li className="skillz__category__item">{data}</li>
+            ))}
           </ul>
         </div>
         <div className="skillz__category">
           <div className="skillz__category__label">{skillsData.toolsTitle}</div>
           <ul>
-            {skillsData.tools.map((data) => <li className="skillz__category__item">{data}</li>)}
+            {skillsData.tools.map(data => (
+              <li className="skillz__category__item">{data}</li>
+            ))}
           </ul>
         </div>
         <div className="skillz__category">
-          <div className="skillz__category__label">{skillsData.designTitle}</div>
+          <div className="skillz__category__label">
+            {skillsData.dataScienceTitle}
+          </div>
           <ul>
-            {skillsData.design.map((data) => <li className="skillz__category__item">{data}</li>)}
+            {skillsData.dataScience.map(data => (
+              <li className="skillz__category__item">{data}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="skillz__category">
+          <div className="skillz__category__label">{skillsData.otherTitle}</div>
+          <ul>
+            {skillsData.other.map(data => (
+              <li className="skillz__category__item">{data}</li>
+            ))}
           </ul>
         </div>
       </div>
