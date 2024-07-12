@@ -52,14 +52,13 @@ const FeaturedProjects = () => (
               rel="noreferrer"
               target="_blank"
             > */}
-            <p style={{ color: "white", fontWeight: "bold", fontSize: "17px" }}>
+            <p style={{ fontWeight: "extrabold", fontSize: "17px", marginLeft: "25px" }}>
               MovieHub
             </p>
             {/* </a> */}
           </div>
-          <p>
-            MovieHub is your complete movie recommendation app. It helps you to
-            find and rate movies as per preferences and also connects you
+          <p style={{ marginLeft: "25px"}}>
+            MovieHub is your complete movie recommendation app. It helps you to find and rate movies as per preferences and also connects you
             with fellow movie enthusiasts!
           </p>
         </figcaption>

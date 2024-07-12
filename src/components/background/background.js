@@ -2,7 +2,7 @@ import * as React from "react"
 
 const backgroundData = {
   title: "Background",
-  part1: "Currently, I am a ",
+  part1: "I am a ",
   part2:
     "4th-year student majoring in Computer Science and minoring in Data Science ",
   part3: "at the University of British Columbia in Vancouver, Canada.",

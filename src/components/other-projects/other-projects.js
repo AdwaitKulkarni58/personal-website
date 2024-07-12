@@ -20,6 +20,18 @@ const otherProjectsData = [
     ],
   },
   {
+    name: "Likelihood of Heart Disease in Adults",
+    url: "https://github.com/AdwaitKulkarni58/personal-portfolio",
+    description:
+      "Heart disease is considered a significant cause of mortality around the world. Due to difficulties in providing accurate diagnoses, experts have turned to machine learning techniques to provide more accurate results to reduce the chances of misdiagnoses and fatalities caused by cardiovascular diseases. In this project, we used the age of a patient, the exercise-induced ST depression score, and the maximum heart rate to predict whether or not an individual will be diagnosed with heart disease.",
+    used: [
+      { thing: "Pandas" },
+      { thing: "Sklearn" },
+      { thing: "NumPy" },
+      { thing: "KNeighbors Classification" },
+    ],
+  },
+  {
     name: "Tweet-Vibes",
     url: "https://github.com/AdwaitKulkarni58/Tweet-Vibes",
     description:
@@ -45,18 +57,6 @@ const otherProjectsData = [
       { thing: "Bootstrap" },
       { thing: "MySQL" },
       { thing: "Oracle Database" },
-    ],
-  },
-  {
-    name: "Likelihood of Heart Disease in Adults",
-    url: "https://github.com/AdwaitKulkarni58/personal-portfolio",
-    description:
-      "Heart disease is considered a significant cause of mortality around the world. Due to difficulties in providing accurate diagnoses, experts have turned to machine learning techniques to provide more accurate results to reduce the chances of misdiagnoses and fatalities caused by cardiovascular diseases. In this project, we used the age of a patient, the exercise-induced ST depression score, and the maximum heart rate to predict whether or not an individual will be diagnosed with heart disease.",
-    used: [
-      { thing: "Pandas" },
-      { thing: "Sklearn" },
-      { thing: "NumPy" },
-      { thing: "KNeighbors Classification" },
     ],
   },
   {
@@ -95,7 +95,7 @@ const otherProjectsData = [
     name: "Images Gallery",
     url: "https://github.com/AdwaitKulkarni58/Images-Gallery-Full-Stack-Project",
     description:
-      "A full-stack web application to search and store images using React.js as a frontend library and Python Flask and Node.js for making API calls and a backend server. Utilizes Unsplash API. This project was really fun to build as you could create your own cute gallery of images and share them with your friends and family!",
+      "A full-stack web application to search and store images using React.js as a frontend library and Python Flask and Node.js for making API calls and a backend server. Utilizes Unsplash API. This project was really fun to build as you could create your own gallery of images and share them with your friends and family!",
     used: [
       { thing: "Python" },
       { thing: "Flask" },
