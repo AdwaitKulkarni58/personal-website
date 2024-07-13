@@ -41,6 +41,7 @@ const Experience = () => (
         target="_blank"
         rel="noreferrer"
         className="arrow-link"
+        style={{ marginTop: "2rem", fontSize: "2rem" }}
       >
         View My Resume
       </a>
