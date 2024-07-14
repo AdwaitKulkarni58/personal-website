@@ -16,7 +16,6 @@ const backgroundData = {
     "I am a regular marathon runner and when I'm not in front of a computer screen",
   line3Part2:
     ", you'll likely find me searching for new trails and new personal records to beat. The other way I like to spend my free time is by solving the problems in life through building stuff and coding up new solutions to mundane tasks! ",
-  line3Part4: ".",
 }
 const Background = () => (
   <section className="section background">
@@ -37,7 +36,6 @@ const Background = () => (
       <p>
         <strong>{backgroundData.line3Part1}</strong>
         {backgroundData.line3Part2}
-        {backgroundData.line3Part4}
       </p>
     </div>
   </section>
