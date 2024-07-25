@@ -119,7 +119,7 @@ const otherProjectsData = [
   },
   {
     name: "Personal Website",
-    url: "https://github.com/AdwaitKulkarni58/personal-website",
+    url: "https://adwait-kulkarni.netlify.app/",
     description:
       "A personal website that highlights my skills, projects, experience, and other things! P.S. You are looking at it right now :)",
     used: [{ thing: "React.js" }, { thing: "Gastby" }, { thing: "JavaScript" }],
