@@ -52,14 +52,19 @@ const FeaturedProjects = () => (
               rel="noreferrer"
               target="_blank"
             > */}
-            <p style={{ fontWeight: "extrabold", fontSize: "17px", marginLeft: "25px" }}>
+            <a
+              href="https://project-11-movie-mavericks-1.onrender.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
               MovieHub
-            </p>
+            </a>
             {/* </a> */}
           </div>
-          <p style={{ marginLeft: "25px"}}>
-            MovieHub is your complete movie recommendation app. It helps you to find and rate movies as per preferences and also connects you
-            with fellow movie enthusiasts!
+          <p style={{ marginLeft: "25px" }}>
+            MovieHub is your complete movie recommendation app. It helps you to
+            find and rate movies as per preferences and also connects you with
+            fellow movie enthusiasts!
           </p>
         </figcaption>
       </div>
