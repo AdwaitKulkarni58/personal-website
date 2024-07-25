@@ -56,6 +56,11 @@ const FeaturedProjects = () => (
               href="https://project-11-movie-mavericks-1.onrender.com/"
               rel="noreferrer"
               target="_blank"
+              style={{
+                fontWeight: "extrabold",
+                fontSize: "17px",
+                marginLeft: "25px",
+              }}
             >
               MovieHub
             </a>
