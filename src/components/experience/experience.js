@@ -5,13 +5,13 @@ const experienceData = [
   {
     company: "Royal Bank of Canada (RBC)",
     url: "https://jobs.rbc.com/ca/en/technology-operations",
-    time: "August 2022 - April 2023",
+    time: "April 2023 - August 2023",
     position: "Full-Stack Developer - Intern",
   },
   {
     company: "Royal Bank of Canada (RBC)",
     url: "https://jobs.rbc.com/ca/en/technology-operations",
-    time: "April 2023 - August 2023",
+    time: "August 2022 - April 2023",
     position: "Full-Stack Developer - Intern",
   },
   {
