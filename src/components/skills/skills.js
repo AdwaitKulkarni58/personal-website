@@ -32,7 +32,7 @@ const skillsData = {
     "OpenShift",
     "Cloud Foundry",
   ],
-  dataScienceTitle: "Data Science and Machine Learning",
+  dataScienceTitle: "Data Science / ML",
   dataScience: ["pandas", "NumPy", "R", "SQL", "Scikit-learn", "SageMaker"],
   otherTitle: "Other",
   other: ["Apache Kafka", "Django", "Mongoose", "JUnit", "Vitest", "Jest"],
