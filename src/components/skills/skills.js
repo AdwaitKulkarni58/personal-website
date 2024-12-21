@@ -35,7 +35,7 @@ const skillsData = {
   dataScienceTitle: "Data Science / ML",
   dataScience: ["pandas", "NumPy", "R", "SQL", "Scikit-learn", "SageMaker"],
   otherTitle: "Other",
-  other: ["Apache Kafka", "Django", "Mongoose", "JUnit", "Vitest", "Jest"],
+  other: ["Apache Kafka", "Spark", "Django", "Mongoose", "JUnit", "Vitest", "Jest"],
 }
 
 const Skills = () => (
