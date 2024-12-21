@@ -4,6 +4,24 @@ import "./other-projects.scss"
 
 const otherProjectsData = [
   {
+    name: "TL;DReviews",
+    url: "https://drive.google.com/file/d/1RjoUCFwnouAJAye8fpgFtCn8V8mSgqcT/view?usp=sharing",
+    description:
+      "This project is an end-to-end solution designed for UBC Computer Science students. It collects user reviews, analyzes their sentiments, and summarizes each course's feedback using visualizations and modern machine learning models. The application provides an intuitive interface for real-time sentiment visualization, detailed analytics, and summary generation.",
+    used: [
+      { thing: "React.js" },
+      { thing: "Recharts.js" },
+      { thing: "D3.js" },
+      { thing: "AWS Lambda" },
+      { thing: "AWS S3" },
+      { thing: "AWS API Gateway" },
+      { thing: "AWS SageMaker" },
+      { thing: "AWS Comprehend" },
+      { thing: "AWS RDS" },
+      { thing: "Docker" },
+    ],
+  },
+  {
     name: "EchoShopper Endeavor Commerce",
     url: "https://github.com/AdwaitKulkarni58/EchoShopper-Endeavor-Commerce",
     description:
