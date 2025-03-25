@@ -3,7 +3,7 @@ import "./skills.scss"
 
 const skillsData = {
   languagesTitle: "Frontend",
-  languages: ["HTML", "CSS", "JavaScript", "React.js", "Material UI"],
+  languages: ["HTML", "CSS", "JavaScript", "React.js", "D3.js", "Material UI"],
   frameworksTitle: "Backend",
   frameworks: [
     "C",
@@ -14,6 +14,7 @@ const skillsData = {
     "Flask",
     "Java",
     "Spring",
+    "Golang",
     "Redux Toolkit",
   ],
   databaseTitle: "Databases",
@@ -35,7 +36,7 @@ const skillsData = {
   dataScienceTitle: "Data Science / ML",
   dataScience: ["pandas", "NumPy", "R", "SQL", "Scikit-learn", "SageMaker"],
   otherTitle: "Other",
-  other: ["Apache Kafka", "Spark", "Django", "Mongoose", "JUnit", "Vitest", "Jest"],
+  other: ["Apache Kafka", "Spark", "Django", "Mongoose", "Altair", "JUnit", "Vitest", "Jest"],
 }
 
 const Skills = () => (
