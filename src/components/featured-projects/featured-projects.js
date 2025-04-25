@@ -5,33 +5,6 @@ const FeaturedProjects = () => (
   <section className="section featured-projects">
     <div className="section__title">Featured Projects</div>
     <div className="section__content">
-      <div className="project blistabloc">
-        <figure className="project__pic">
-          <a
-            href="https://github.com/AdwaitKulkarni58/UpbeatUpdates"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src="./images/featured/passkeynotes/frame.png" alt="" />
-          </a>
-        </figure>
-        <figcaption className="project__caption">
-          <div className="project__name">
-            <a
-              href="https://github.com/AdwaitKulkarni58/UpbeatUpdates"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Upbeat Updates
-            </a>
-          </div>
-          <p>
-            A website that aims to provide users with a platform where they can
-            read, save, and share positive news articles as well as analyze
-            their own positivity based on news preferences
-          </p>
-        </figcaption>
-      </div>
 
       <div className="project screentime">
         <figure className="project__pic phones">
@@ -70,6 +43,34 @@ const FeaturedProjects = () => (
             MovieHub is your complete movie recommendation app. It helps you to
             find and rate movies as per preferences and also connects you with
             fellow movie enthusiasts!
+          </p>
+        </figcaption>
+      </div>
+
+      <div className="project blistabloc">
+        <figure className="project__pic">
+          <a
+            href="https://github.com/AdwaitKulkarni58/UpbeatUpdates"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src="./images/featured/passkeynotes/frame.png" alt="" />
+          </a>
+        </figure>
+        <figcaption className="project__caption">
+          <div className="project__name">
+            <a
+              href="https://github.com/AdwaitKulkarni58/UpbeatUpdates"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Upbeat Updates
+            </a>
+          </div>
+          <p>
+            A website that aims to provide users with a platform where they can
+            read, save, and share positive news articles as well as analyze
+            their own positivity based on news preferences
           </p>
         </figcaption>
       </div>
