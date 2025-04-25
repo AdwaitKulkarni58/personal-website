@@ -4,6 +4,44 @@ import "./other-projects.scss"
 
 const otherProjectsData = [
   {
+    name: "Distributed Key-Value Store with Raft",
+    url: "https://drive.google.com/file/d/1LNxCYOWXMqb5V1CACD6nR7spO1X6YnTg/view",
+    description:
+      "A fault-tolerant distributed key-value store from scratch using the Raft consensus algorithm from Stanford’s ATC 2014 paper in Go, achieving strong consistency and creating persistent and replicated logs.",
+    used: [
+      { thing: "Go" },
+      { thing: "Raft" },
+      { thing: "Consensus Algorithms" },
+      { thing: "Distributed Systems" },
+    ],
+  },
+  {
+    name: "A Historical Analysis of the Olympic Games",
+    url: "https://adwaitkulkarni58.github.io/DSCI320-project-website/",
+    description:
+      "Welcome to the project exploring the rich history of the Olympic Games! Over the course of 120 years, the Olympic Games have showcased extraordinary human achievement, cultural milestones, and global sports history. This project delves into this treasure box using the 120 Years of Olympic History dataset, a compilation of athlete records, medal achievements, and event details spanning from Athens 1896 to Rio 2016.",
+    used: [
+      { thing: "Python" },
+      { thing: "Altair" },
+      { thing: "pandas" },
+      { thing: "Python" },
+      { thing: "Data Visualization" },
+    ],
+  },
+  {
+    name: "Mining, Eh?",
+    url: "https://adwaitkulkarni58.github.io/Explore-Canadian-Mines/",
+    description:
+      "Canada’s mining sector has driven economic growth, resource extraction, and technological innovation for over two centuries. However, understanding the key aspects of this sector, such as the distribution of mines across the country and whether their geographical locations correlate to the commodities they produce, remains a challenge due to the dispersed nature of the data. Our initiative is to serve mining history enthusiasts by providing an exploratory tool to assist users in developing a deeper understanding of Canada’s mining history. By visualizing the distribution of mines and the commodities they produced within Canada’s provinces and territories from 1810-2022, we aim to uncover temporal and geospatial trends in commodity production. By providing users with the option to filter mining companies and see how many mines each company has worked on, we offer users information about how mine ownership has evolved through the years and which companies lead the way with the most mines worked on. Through a dashboard-style visualization, users can explore mine distribution data at country and province-specific levels, including the ability to filter by commodities produced, company ownerships, and operational periods.",
+    used: [
+      { thing: "D3.js" },
+      { thing: "Bootstrap" },
+      { thing: "pandas" },
+      { thing: "Python" },
+      { thing: "Data Visualization" },
+    ],
+  },
+  {
     name: "TL;DReviews",
     url: "https://drive.google.com/file/d/1RjoUCFwnouAJAye8fpgFtCn8V8mSgqcT/view?usp=sharing",
     description:
