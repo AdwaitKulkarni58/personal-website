@@ -4,8 +4,8 @@ const backgroundData = {
   title: "Background",
   part1: "I am a ",
   part2:
-    "recent graduate with a Bachelor of Science in Computer Science and a Minor in Data Science",
-  part3: "from the University of British Columbia in Vancouver, Canada.",
+    "recent graduate with a Bachelor of Science in Computer Science and a Minor in Data Science ",
+  part3: "from the University of British Columbia (UBC) in Vancouver, Canada.",
   line2: "As a hands-on full-stack software developer, I have one year of ",
   line3: "internship ",
   line4: "experience working as a Full-Stack Developer with the ",
