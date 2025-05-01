@@ -4,14 +4,14 @@ const backgroundData = {
   title: "Background",
   part1: "I am a ",
   part2:
-    "4th-year student majoring in Computer Science and minoring in Data Science ",
-  part3: "at the University of British Columbia in Vancouver, Canada.",
+    "recent graduate with a Bachelor of Science in Computer Science and a Minor in Data Science",
+  part3: "from the University of British Columbia in Vancouver, Canada.",
   line2: "As a hands-on full-stack software developer, I have one year of ",
   line3: "internship ",
-  line4: "experience working as a full-stack developer with the ",
+  line4: "experience working as a Full-Stack Developer with the ",
   line5: "Royal Bank of Canada (RBC) ",
   line6:
-    "in Toronto, ON where I was stationed in the Deposits API Lab, building APIs and microservices for both internal and external clients.",
+    "in Toronto, ON where I was stationed in the Deposits API Lab, building APIs and microservices for both internal and external clients along with being actively involved in the HSBC acquisition project by RBC.",
   line3Part1:
     "I am a regular marathon runner and when I'm not in front of a computer screen",
   line3Part2:
