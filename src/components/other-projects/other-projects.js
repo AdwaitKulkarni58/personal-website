@@ -4,6 +4,22 @@ import "./other-projects.scss"
 
 const otherProjectsData = [
   {
+    name: "ClusterVAN",
+    url: "https://www.linkedin.com/posts/adwaitkulkarni58_clustering-python-pandas-activity-7325932984941850626-YkLB?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRuYOUBNRx0CVK87ccrh46__DgtnJ-tpYI",
+    description:
+      "A geospatial tool to locate Vancouver's underserved areas by K-Means clustering 300K+ businesses over 6 years and provide actionable recommendations to open new businesses based on nearby competitors.",
+    used: [
+      { thing: "Python" },
+      { thing: "pandas" },
+      { thing: "NumPy" },
+      { thing: "Scikit-Learn" },
+      { thing: "K-Means" },
+      { thing: "Groq LLM" },
+      { thing: "Plotly Dash" },
+      { thing: "FPDF" },
+    ],
+  },
+  {
     name: "Distributed Key-Value Store with Raft",
     url: "https://drive.google.com/file/d/1LNxCYOWXMqb5V1CACD6nR7spO1X6YnTg/view",
     description:
