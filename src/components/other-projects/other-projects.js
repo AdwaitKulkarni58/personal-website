@@ -77,7 +77,7 @@ const otherProjectsData = [
   },
   {
     name: "EchoShopper Endeavor Commerce",
-    url: "https://github.com/AdwaitKulkarni58/EchoShopper-Endeavor-Commerce",
+    url: "https://main--roaring-medovik-528e35.netlify.app/",
     description:
       "I developed a complete working e-commerce store showcasing different products within the platform. The store features an industry-standard UI along with back-end capabilities like creating baskets, saving items to favorites, checkout functionality and order retrieval.",
     used: [
