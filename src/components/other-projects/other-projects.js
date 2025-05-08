@@ -93,7 +93,7 @@ const otherProjectsData = [
   },
   {
     name: "Likelihood of Heart Disease in Adults",
-    url: "https://github.com/AdwaitKulkarni58/personal-portfolio",
+    url: "https://drive.google.com/file/d/1FRPuF6NVrG4SNm_TXrHYTRpOL6d3L0lM/view?usp=sharing",
     description:
       "Heart disease is considered a significant cause of mortality around the world. Due to difficulties in providing accurate diagnoses, experts have turned to machine learning techniques to provide more accurate results to reduce the chances of misdiagnoses and fatalities caused by cardiovascular diseases. In this project, we used the age of a patient, the exercise-induced ST depression score, and the maximum heart rate to predict whether or not an individual will be diagnosed with heart disease.",
     used: [
