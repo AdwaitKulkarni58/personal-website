@@ -3,16 +3,16 @@ import "./experience.scss"
 
 const experienceData = [
   {
-    company: "Royal Bank of Canada (RBC)",
-    url: "https://jobs.rbc.com/ca/en/technology-operations",
-    time: "April 2023 - August 2023",
-    position: "Full-Stack Developer - Intern",
+    company: "Tata Consultancy Services (TCS)",
+    url: "https://www.tcs.com/",
+    time: "June 2025 - Present",
+    position: "Software Developer",
   },
   {
     company: "Royal Bank of Canada (RBC)",
     url: "https://jobs.rbc.com/ca/en/technology-operations",
-    time: "August 2022 - April 2023",
-    position: "Full-Stack Developer - Intern",
+    time: "September 2022 - August 2023",
+    position: "Full-Stack Developer",
   },
   {
     company: "Wizeprep",
